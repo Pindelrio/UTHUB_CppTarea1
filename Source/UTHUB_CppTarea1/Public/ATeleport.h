@@ -45,7 +45,7 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category="Teleport")
 	TSubclassOf<ACharacter> TeleportActorClass;
 
-	UPROPERTY(EditAnywhere, Category="Teleport")
+	UPROPERTY(EditInstanceOnly, Category="Teleport")
 	AATeleport* BindedTeleportActor;
 
 	UFUNCTION()
